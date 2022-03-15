@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController2: UIViewController, Storyboarded {
     weak var coordinator: MainCoordinator?
+    @IBOutlet weak var segmentControl: UISegmentedControl!
     
     @IBAction func createAccount(_ sender: Any) {
         coordinator?.createAccount()

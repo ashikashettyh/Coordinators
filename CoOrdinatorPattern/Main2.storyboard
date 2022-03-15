@@ -49,16 +49,28 @@
                                     <action selector="createAccount:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zh7-Zm-vUa"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yPf-LB-jGx">
+                                <rect key="frame" x="141.5" y="437.5" width="131" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="Vla-VI-iUl" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="76D-RN-aOY"/>
+                            <constraint firstItem="yPf-LB-jGx" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="NRq-mO-JSQ"/>
                             <constraint firstItem="he1-MA-PFc" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="181" id="O3s-EY-PFa"/>
+                            <constraint firstItem="yPf-LB-jGx" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="b24-ol-w7v"/>
                             <constraint firstItem="he1-MA-PFc" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="iCi-7e-VTq"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Vla-VI-iUl" secondAttribute="bottom" constant="264" id="ofS-zP-iIe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="segmentControl" destination="yPf-LB-jGx" id="196-PF-Hr8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
