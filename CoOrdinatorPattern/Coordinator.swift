@@ -7,7 +7,8 @@
 
 import UIKit
 
-protocol Coordinator {
+// needs to be class only because the coordinators gets passed around multiple places
+protocol Coordinator: AnyObject {
     var childCoordinators: [Coordinator] {get set}
     var navigation: UINavigationController {get set}
     

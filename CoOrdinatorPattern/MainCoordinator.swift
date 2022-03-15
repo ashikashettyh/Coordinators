@@ -23,9 +23,10 @@ class MainCoordinator: Coordinator {
     }
     
     func buySubscription() {
-        let vc = BuyViewController.instantiate()
-        vc.coordinator = self
-        navigation.pushViewController(vc, animated: true)
+        let child = BuyCoordinator(navigationController: navigation)
+        childCoordinators.append(child)
+        child.parentCoordinator = self
+        child.start()
     }
     
     func createAccount() {
@@ -33,5 +34,15 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigation.pushViewController(vc, animated: true)
     }
+    
+    func childDismissed(_ child: Coordinator?) {
+        for (index, coordinator) in childCoordinators.enumerated() {
+            if coordinator === child {
+                childCoordinators.remove(at: index)
+                break
+            }
+        }
+    }
+    
     
 }

@@ -11,6 +11,7 @@
 		60C94C2027E059E000FEA35D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C1F27E059E000FEA35D /* ViewController2.swift */; };
 		60C94C2227E05F5200FEA35D /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C2127E05F5200FEA35D /* BuyViewController.swift */; };
 		60C94C2427E05F7200FEA35D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C2327E05F7200FEA35D /* CreateAccountViewController.swift */; };
+		60C94C2627E0753000FEA35D /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C94C2527E0753000FEA35D /* BuyCoordinator.swift */; };
 		60D0D5C527DF784300DC8A22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0D5C427DF784300DC8A22 /* AppDelegate.swift */; };
 		60D0D5C727DF784300DC8A22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0D5C627DF784300DC8A22 /* SceneDelegate.swift */; };
 		60D0D5CE27DF784400DC8A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D0D5CD27DF784400DC8A22 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		60C94C1F27E059E000FEA35D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		60C94C2127E05F5200FEA35D /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		60C94C2327E05F7200FEA35D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		60C94C2527E0753000FEA35D /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuyCoordinator.swift; path = ../../CoordinatorPattern/CoOrdinatorPattern/BuyCoordinator.swift; sourceTree = "<group>"; };
 		60D0D5C127DF784300DC8A22 /* CoOrdinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoOrdinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D0D5C427DF784300DC8A22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60D0D5C627DF784300DC8A22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				60C94C2327E05F7200FEA35D /* CreateAccountViewController.swift */,
 				60D0D5C627DF784300DC8A22 /* SceneDelegate.swift */,
 				60D0D5DC27DF7C1B00DC8A22 /* MainCoordinator.swift */,
+				60C94C2527E0753000FEA35D /* BuyCoordinator.swift */,
 				60C94C1D27E0595F00FEA35D /* Main2.storyboard */,
 				60C94C1F27E059E000FEA35D /* ViewController2.swift */,
 				60D0D5CD27DF784400DC8A22 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			files = (
 				60C94C2027E059E000FEA35D /* ViewController2.swift in Sources */,
 				60C94C2227E05F5200FEA35D /* BuyViewController.swift in Sources */,
+				60C94C2627E0753000FEA35D /* BuyCoordinator.swift in Sources */,
 				60D0D5DB27DF7AF300DC8A22 /* StoryBoarded.swift in Sources */,
 				60D0D5DD27DF7C1B00DC8A22 /* MainCoordinator.swift in Sources */,
 				60D0D5D927DF7A5500DC8A22 /* Coordinator.swift in Sources */,
